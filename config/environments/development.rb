@@ -55,7 +55,8 @@ Rails.application.configure do
 
   config.action_mailer.delivery_method = :smtp
   config.action_mailer.perform_deliveries = true
-  config.action_mailer.raise_delivery_errors = true
+  config.action_mailer.raise_delivery_errors = false
+  config.action_mailer.default :charset => "utf-8"
 
   config.action_mailer.smtp_settings = {   
     :openssl_verify_mode => OpenSSL::SSL::VERIFY_NONE,      
@@ -63,7 +64,7 @@ Rails.application.configure do
     :enable_starttls_auto => true,  #this is the important stuff!
     :address        => ENV['address'],
     :port           => 587,
-    :domain         => ENV['domain'],
+    :domain         => localhost:3000,
     :authentication => :plain,
     :user_name      => ENV['user_name'],
     :password       => ENV['password']
