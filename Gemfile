@@ -26,6 +26,11 @@ gem 'sass-rails', '~> 5.0'
 #twitter bootstrap library for styles - i.e we're importing this library
 gem 'bootstrap-sass', '~> 3.3', '>= 3.3.7'
 
+# use font awesome icons
+gem 'font-awesome-rails', '~> 4.7', '>= 4.7.0.3'
+
+
+gem 'jquery-rails', '~> 4.3', '>= 4.3.1'
 
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
