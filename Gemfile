@@ -75,3 +75,5 @@ gem 'figaro', '~> 1.1', '>= 1.1.1'
 
 
 gem 'excon', '~> 0.60.0'
+
+gem 'devise',  '4.4.1'
