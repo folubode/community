@@ -1,4 +1,4 @@
 class ApplicationMailer < ActionMailer::Base
-  default from: 'folubode@gmail.com'
+  default from: 'webmaster@asktheforum.com'
   layout 'mailer'
 end

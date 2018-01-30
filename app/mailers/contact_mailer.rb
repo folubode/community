@@ -1,6 +1,6 @@
 class ContactMailer < ActionMailer::Base
 
-  default to: 'folubode@gmail.com'
+  default to: 'webmaster@asktheforum.com'
   
   def contact_email(name, email, body)
     @name = name
